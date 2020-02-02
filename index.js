@@ -58,7 +58,7 @@ bot.on('guildMemberAdd', member =>{
   const channel = member.guild.channels.find(channel => channel.name === "joining");
   if(!channel) return;
 
-  channel.send('welcome to Spring Centenni $(member). Please review #clan-guidelines and accept if you would like to join.');
+  channel.send('Welcome to Spring Centenni. Please review #clan-guidelines and accept if you would like to join. Enter in the command !player [playerID] below.');
 
 });
 
